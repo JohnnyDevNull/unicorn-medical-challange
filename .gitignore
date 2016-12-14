@@ -1,0 +1,12 @@
+/dist/
+/.tmp/
+/.tscache
+/.sass-cache/
+/build
+/coverage
+
+/node_modules/
+
+assets/css/
+
+.idea/

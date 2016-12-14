@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noUnusedParameters": false,
+    "noUnusedLocals": true
+  },
+
+  "exclude": [
+      "node_modules",
+      "build",
+      "dist",
+      "scripts",
+      "test/e2e"
+  ]
+}
