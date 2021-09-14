@@ -16,13 +16,3 @@ export interface IMenuItem {
    */
   state: string;
 }
-
-interface IAbstractMenuItem {
-  title: string;
-}
-
-export interface IMenuActionItem extends IAbstractMenuItem {
-  link: string;
-  icon1: string;
-  icon2: string;
-}

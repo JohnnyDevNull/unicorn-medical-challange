@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IMenuActionItem, IMenuItem } from './menu.interfaces';
+import { IMenuActionItem, IMenuItem } from './interfaces';
 
 @Component({
   selector: 'ae-main-navigation',
