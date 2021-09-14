@@ -1,8 +1,8 @@
-import {NgModule} from "@angular/core";
-import {NavbarComponent} from "./navbar/navbar.component";
-import {MenuComponent} from "./menu/menu.component";
-import {AppRoutingModule} from "../../app.routing.module";
-import {BrowserModule} from "@angular/platform-browser";
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { AppRoutingModule } from '../../app.routing.module';
+import { MenuComponent } from './menu/menu.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   imports: [

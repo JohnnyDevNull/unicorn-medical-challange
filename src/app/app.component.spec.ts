@@ -1,13 +1,12 @@
+import { APP_BASE_HREF } from '@angular/common';
+import { HttpClientModule } from '@angular/common/http';
 import { TestBed, waitForAsync } from '@angular/core/testing';
-
 import { AppComponent } from './app.component';
-import {LayoutModule} from "./core/layout/layout.module";
-import {DashboardComponent} from "./dashboard/dashboard.component";
-import {SearchComponent} from "./search/search.component";
-import {AppRoutingModule} from "./app.routing.module";
-import {APP_BASE_HREF} from "@angular/common";
-import {SearchService} from "./core/services/search.service";
-import {HttpModule} from "@angular/http";
+import { AppRoutingModule } from './app.routing.module';
+import { LayoutModule } from './core/layout/layout.module';
+import { SearchService } from './core/services/search.service';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { SearchComponent } from './search/search.component';
 
 describe('AppComponent', () => {
   beforeEach(waitForAsync(() => {
@@ -15,7 +14,7 @@ describe('AppComponent', () => {
       imports: [
         LayoutModule,
         AppRoutingModule,
-        HttpModule
+        HttpClientModule
       ],
       declarations: [
         AppComponent,
