@@ -2,20 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
 import { catchError, map } from 'rxjs/operators';
-
-export interface ISearchResultItem {
-  answer_count: number;
-  closed_date: number;
-  closed_reason: string;
-  creation_date: number;
-  is_answered: boolean;
-  last_activity_date: number;
-  link: string;
-  score: number;
-  tags: Array<string>;
-  title: string;
-  view_count: number;
-}
+import { ISearchResult } from './interfaces';
 
 @Injectable()
 export class SearchService {
@@ -25,8 +12,8 @@ export class SearchService {
 
   constructor(private http: HttpClient) {}
 
-  search(keyword: string): Observable<any> {
-    return this.http.get<any>(SearchService.apiUrl + keyword).pipe(
+  search(keyword: string): Observable<ISearchResult> {
+    return this.http.get<ISearchResult>(SearchService.apiUrl + keyword).pipe(
       map((res) => {
         console.log('API USAGE: ' + res.quota_remaining + ' of ' + res.quota_max + ' requests available' );
         return res;
