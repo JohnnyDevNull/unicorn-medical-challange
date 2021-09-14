@@ -1,6 +1,7 @@
-import {Injectable} from "@angular/core";
-import {Http, Response} from "@angular/http";
-import {Observable} from "rxjs";
+import { HttpClient } from '@angular/common/http';
+import { Injectable } from '@angular/core';
+import { Observable, of } from 'rxjs';
+import { catchError } from 'rxjs/operators';
 
 export interface ISearchResultItem  {
     answer_count: number;
@@ -22,18 +23,18 @@ export class SearchService {
     private static readonly apiUrl =
         "https://api.stackexchange.com/2.2/search?pagesize=20&order=desc&sort=activity&site=stackoverflow&intitle=";
 
-    constructor(private http: Http) {
+    constructor(private http: HttpClient) {
 
     }
 
-    search(keyword: string): Observable<JSON> {
-        return this.http.get(SearchService.apiUrl + keyword)
-            .map((res: Response) => {
-                let data = res.json();
-                console.log("API USAGE: " + data.quota_remaining + " of " + data.quota_max + " requests available" );
-                return data;
-            })
-            .catch((err: Response) => Observable.of(err.json()));
+    search(keyword: string): Observable<any> {
+        return this.http.get<JSON>(SearchService.apiUrl + keyword).pipe(
+            // map((res: Response) => {
+            //    console.log("API USAGE: " + res.quota_remaining + " of " + res.quota_max + " requests available" );
+            //    return res;
+            // }),
+            catchError((err) => of(err.json()))
+        );
     }
 
 

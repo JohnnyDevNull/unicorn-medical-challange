@@ -1,13 +1,12 @@
-import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
-
+import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
-import {SearchService} from "./core/services/search.service";
-import {AppRoutingModule} from "./app.routing.module";
+import { AppRoutingModule } from './app.routing.module';
+import { LayoutModule } from './core/layout/layout.module';
+import { SearchService } from './core/services/search.service';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import {LayoutModule} from "./core/layout/layout.module";
 import { SearchComponent } from './search/search.component';
 
 @NgModule({
@@ -19,8 +18,7 @@ import { SearchComponent } from './search/search.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule,
-
+    HttpClientModule,
     LayoutModule,
     AppRoutingModule
   ],
