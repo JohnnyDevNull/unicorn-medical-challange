@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { IMenuActionItem, IMenuItem } from './interfaces';
+import { menuActionItems } from './menu-action-items';
+import { menuItems } from './menu-items';
 
 @Component({
   selector: 'ae-main-navigation',
@@ -11,22 +13,8 @@ export class MenuComponent {
   public actionItems: Array<IMenuActionItem>;
 
   constructor() {
-    this.menuItems = [{
-      title: 'Dashboard',
-      icon: 'home',
-      state: 'dashboard'
-    }, {
-      title: 'Search',
-      icon: 'search',
-      state: 'search'
-    }];
-
-    this.actionItems = [{
-      link: 'https://wiki.redmedical.de/x/gIE4',
-      icon1: 'square',
-      icon2: 'phone',
-      title: 'Hilfe'
-    }];
+    this.menuItems = menuItems;
+    this.actionItems = menuActionItems;
   }
 
 }
