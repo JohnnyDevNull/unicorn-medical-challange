@@ -1,0 +1,8 @@
+<div class="stack-list__title">
+  {{ keyword }}
+</div>
+<app-stack-list-item
+  *ngFor="let item of items"
+  [item]="item"
+  class="stack-list-item"
+></app-stack-list-item>

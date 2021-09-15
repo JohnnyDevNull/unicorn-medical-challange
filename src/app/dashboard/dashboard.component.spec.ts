@@ -1,5 +1,9 @@
+import { HttpClientModule } from '@angular/common/http';
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
+import { TrustHtmlPipe } from '../core/pipes/trust-html.pipe';
 import { DashboardComponent } from './dashboard.component';
+import { StackListItemComponent } from './stack-list-item/stack-list-item.component';
+import { StackListComponent } from './stack-list/stack-list.component';
 
 describe('DashboardComponent', () => {
   let component: DashboardComponent;
@@ -7,7 +11,13 @@ describe('DashboardComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ DashboardComponent ]
+      imports: [ HttpClientModule ],
+      declarations: [
+        DashboardComponent,
+        StackListComponent,
+        StackListItemComponent,
+        TrustHtmlPipe
+      ]
     })
     .compileComponents();
   }));
@@ -18,7 +28,7 @@ describe('DashboardComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  test('should create', () => {
     expect(component).toBeTruthy();
   });
 });

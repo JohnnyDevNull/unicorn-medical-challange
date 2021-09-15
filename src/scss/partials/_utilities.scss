@@ -760,6 +760,14 @@ i.bg-aero {
     }
 }
 
+.flex-item {
+  &--grow {
+    flex-grow: 1;
+    flex-basis: 0;
+    min-width: 0;
+  }
+}
+
 .scrolling__container {
     overflow-y: auto;
 }

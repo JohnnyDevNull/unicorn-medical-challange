@@ -1,3 +1,9 @@
-<p>
-  Dashboard Komponente...
-</p>
+<div class="flex">
+  <div class="flex-item--grow" *ngFor="let config of stackLists">
+    <app-stack-list
+      class="stack-list"
+      [keyword]="config.keyword"
+      [items]="(config.items | async)"
+    ></app-stack-list>
+  </div>
+</div>

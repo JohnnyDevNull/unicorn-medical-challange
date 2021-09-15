@@ -1,0 +1,32 @@
+.stack-list {
+  display: block;
+  height: 100%;
+  padding: 5px;
+  margin: 5px;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+  background-color: $white;
+
+  &__title {
+    text-align: center;
+    font-weight: 600;
+    padding: 5px 0;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+}
+
+.stack-list-item {
+  display: block;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+
+  &:last-child {
+    border-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  &__title {
+    margin-right: 5px;
+  }
+}

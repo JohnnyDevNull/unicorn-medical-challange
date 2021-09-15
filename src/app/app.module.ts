@@ -7,13 +7,19 @@ import { AppRoutingModule } from './app.routing.module';
 import { LayoutModule } from './core/layout/layout.module';
 import { SearchService } from './core/services/search.service';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { StackListItemComponent } from './dashboard/stack-list-item/stack-list-item.component';
+import { StackListComponent } from './dashboard/stack-list/stack-list.component';
 import { SearchComponent } from './search/search.component';
+import { TrustHtmlPipe } from './core/pipes/trust-html.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
-    SearchComponent
+    SearchComponent,
+    StackListComponent,
+    StackListItemComponent,
+    TrustHtmlPipe
   ],
   imports: [
     BrowserModule,
