@@ -30,3 +30,17 @@
     margin-right: 5px;
   }
 }
+
+.weather-item {
+  &__date {
+    margin-right: 5px;
+  }
+
+  &__time {
+    margin-right: 5px;
+  }
+
+  &__temp {
+    margin-left: 5px;
+  }
+}

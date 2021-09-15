@@ -11,6 +11,7 @@ import { StackListItemComponent } from './dashboard/stack-list-item/stack-list-i
 import { StackListComponent } from './dashboard/stack-list/stack-list.component';
 import { SearchComponent } from './search/search.component';
 import { TrustHtmlPipe } from './core/pipes/trust-html.pipe';
+import { WeatherDataItemComponent } from './dashboard/weather-data-item/weather-data-item.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { TrustHtmlPipe } from './core/pipes/trust-html.pipe';
     SearchComponent,
     StackListComponent,
     StackListItemComponent,
-    TrustHtmlPipe
+    TrustHtmlPipe,
+    WeatherDataItemComponent
   ],
   imports: [
     BrowserModule,

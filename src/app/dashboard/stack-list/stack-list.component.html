@@ -1,8 +1,15 @@
 <div class="stack-list__title">
   {{ keyword }}
 </div>
-<app-stack-list-item
-  *ngFor="let item of items"
-  [item]="item"
-  class="stack-list-item"
-></app-stack-list-item>
+<ng-container *ngFor="let item of items">
+  <app-stack-list-item
+    *ngIf="isStackListItem(item)"
+    [item]="item"
+    class="stack-list-item"
+  ></app-stack-list-item>
+  <app-weather-data-item
+    *ngIf="isWeatherItem(item)"
+    [item]="item"
+    class="stack-list-item weather-item"
+  ></app-weather-data-item>
+</ng-container>

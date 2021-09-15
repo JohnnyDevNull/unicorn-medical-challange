@@ -4,6 +4,7 @@ import { TrustHtmlPipe } from '../core/pipes/trust-html.pipe';
 import { DashboardComponent } from './dashboard.component';
 import { StackListItemComponent } from './stack-list-item/stack-list-item.component';
 import { StackListComponent } from './stack-list/stack-list.component';
+import { WeatherDataItemComponent } from './weather-data-item/weather-data-item.component';
 
 describe('DashboardComponent', () => {
   let component: DashboardComponent;
@@ -16,6 +17,7 @@ describe('DashboardComponent', () => {
         DashboardComponent,
         StackListComponent,
         StackListItemComponent,
+        WeatherDataItemComponent,
         TrustHtmlPipe
       ]
     })

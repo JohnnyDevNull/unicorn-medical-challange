@@ -9,6 +9,7 @@ import { SearchService } from './core/services/search.service';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { StackListItemComponent } from './dashboard/stack-list-item/stack-list-item.component';
 import { StackListComponent } from './dashboard/stack-list/stack-list.component';
+import { WeatherDataItemComponent } from './dashboard/weather-data-item/weather-data-item.component';
 import { SearchComponent } from './search/search.component';
 
 describe('AppComponent', () => {
@@ -25,6 +26,7 @@ describe('AppComponent', () => {
         SearchComponent,
         StackListComponent,
         StackListItemComponent,
+        WeatherDataItemComponent,
         TrustHtmlPipe
       ],
       providers: [
