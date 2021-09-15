@@ -5,6 +5,7 @@
     position: fixed;
     width: calc(100% - #{$sidebar-width});
     top: 0;
+    left: #{$sidebar-width};
     z-index: 100;
 
     &::after {

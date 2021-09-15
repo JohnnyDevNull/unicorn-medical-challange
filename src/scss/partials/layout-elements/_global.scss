@@ -6,6 +6,7 @@ body {
     @include scrollbars(6px, #ddd, transparent);
 
     height: 100%;
+    margin: 0;
     overflow-x: hidden;
     background: $white-sand;
     color: $gray-scorpion;
