@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
-import { ISearchResultItem } from 'src/app/core/services/interfaces';
+import { ISearchResultItem } from '../../core/services/interfaces';
 
 @Component({
   selector: 'app-stack-list-item',

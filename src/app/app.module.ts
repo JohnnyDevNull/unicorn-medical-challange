@@ -2,16 +2,18 @@ import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
+import { appMockData } from '@app-mock';
+import { environment } from '../environments/environment';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app.routing.module';
-import { LayoutModule } from './core/layout/layout.module';
-import { SearchService } from './core/services/search.service';
-import { DashboardComponent } from './dashboard/dashboard.component';
-import { StackListItemComponent } from './dashboard/stack-list-item/stack-list-item.component';
-import { StackListComponent } from './dashboard/stack-list/stack-list.component';
-import { SearchComponent } from './search/search.component';
-import { TrustHtmlPipe } from './core/pipes/trust-html.pipe';
-import { WeatherDataItemComponent } from './dashboard/weather-data-item/weather-data-item.component';
+import { LayoutModule } from './core/layout';
+import { TrustHtmlPipe } from './core/pipes';
+import { MOCK_DATA } from './core/tokens/mock-data.token';
+import { DashboardComponent } from './dashboard';
+import { StackListComponent } from './dashboard/stack-list';
+import { StackListItemComponent } from './dashboard/stack-list-item';
+import { WeatherDataItemComponent } from './dashboard/weather-data-item';
+import { SearchComponent } from './search';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,12 @@ import { WeatherDataItemComponent } from './dashboard/weather-data-item/weather-
     LayoutModule,
     AppRoutingModule
   ],
-  providers: [SearchService],
+  providers: [
+    {
+      provide: MOCK_DATA,
+      useValue: appMockData
+    }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

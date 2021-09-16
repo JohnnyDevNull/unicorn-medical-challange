@@ -1,4 +1,4 @@
-export interface IWatherDataItem {
+export interface IWeatherDataItem {
   Datum: string;
 
   Zeit: string;

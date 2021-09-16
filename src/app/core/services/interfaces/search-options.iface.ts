@@ -3,5 +3,4 @@ export interface ISearchOptions {
   order: string;
   sort: string;
   site: string;
-  reload: boolean;
 }

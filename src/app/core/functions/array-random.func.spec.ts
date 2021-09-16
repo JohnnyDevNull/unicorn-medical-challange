@@ -1,5 +1,5 @@
 import { ArrayRandom } from './array-random.func';
-import weatherData from '../services/weatherdata.json';
+import weatherData from '../../../../cypress/fixtures/weatherdata.json';
 
 describe('ArrayRandom', () => {
 

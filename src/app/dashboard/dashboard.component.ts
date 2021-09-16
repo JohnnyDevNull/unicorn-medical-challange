@@ -1,16 +1,8 @@
 import { Component } from '@angular/core';
-import { Observable } from 'rxjs';
-import { map } from 'rxjs/operators';
+import { map, switchMap } from 'rxjs/operators';
 import { ArrayLimit, ArrayRandom, ArrayZipFlat } from '../core/functions';
-import { ISearchResultItem } from '../core/services/interfaces';
-import { IWatherDataItem } from '../core/services/interfaces/weather-data-item.iface';
-import { SearchService } from '../core/services/search.service';
-import weatherData from '../core/services/weatherdata.json';
-
-interface StackListConfig {
-  keyword: string;
-  items: Observable<Array<ISearchResultItem | IWatherDataItem>>;
-}
+import { SearchService, WeatherDataService } from '../core/services';
+import { StackListConfig } from './stack-list.config';
 
 @Component({
   selector: 'app-dashboard',
@@ -21,7 +13,8 @@ export class DashboardComponent {
   stackLists: Array<StackListConfig> = [];
 
   constructor(
-    private readonly searchService: SearchService
+    private readonly searchService: SearchService,
+    private readonly weatherService: WeatherDataService
   ) {
     this.stackLists.push({
       keyword: 'TypeScript',
@@ -36,11 +29,14 @@ export class DashboardComponent {
     }, {
       keyword: 'Weather',
       items: this.searchService.search('Weather').pipe(
-        map(res => {
-          const items = ArrayLimit(res, 5);
-          const weatherSample = ArrayRandom(weatherData, 5);
-          return ArrayZipFlat(items, weatherSample);
-        }
+        switchMap(searchResult => this.weatherService.getWeatherData().pipe(
+          map(weatherResult => {
+            console.log(weatherResult);
+            const items = ArrayLimit(searchResult, 5);
+            const weatherSample = ArrayRandom(weatherResult || [] as any, 5);
+            return ArrayZipFlat(items, weatherSample);
+          }
+        )),
       ))
     });
   }

@@ -1,5 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { TrustHtmlPipe } from '../../core/pipes/trust-html.pipe';
+import { TrustHtmlPipe } from '../../core/pipes';
 import { StackListItemComponent } from './stack-list-item.component';
 
 describe('StackListItemComponent', () => {

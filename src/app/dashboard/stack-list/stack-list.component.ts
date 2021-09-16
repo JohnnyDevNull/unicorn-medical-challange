@@ -1,6 +1,5 @@
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
-import { ISearchResultItem } from '../../core/services/interfaces';
-import { IWatherDataItem } from '../../core/services/interfaces/weather-data-item.iface';
+import { ISearchResultItem, IWeatherDataItem } from '../../core/services/interfaces';
 
 @Component({
   selector: 'app-stack-list',
@@ -11,5 +10,5 @@ export class StackListComponent {
   @Input() keyword: string | null = null;
   @Input() items: Array<any> | null = null;
   isStackListItem = (item: ISearchResultItem) => item?.title && item?.link;
-  isWeatherItem = (item: IWatherDataItem) => item?.Datum && item?.Zeit && item?.['Temp. 3'];
+  isWeatherItem = (item: IWeatherDataItem) => item?.Datum && item?.Zeit && item?.['Temp. 3'];
 }

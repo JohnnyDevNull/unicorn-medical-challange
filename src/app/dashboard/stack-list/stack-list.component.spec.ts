@@ -1,7 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { TrustHtmlPipe } from '../../core/pipes/trust-html.pipe';
-import { StackListItemComponent } from '../stack-list-item/stack-list-item.component';
-import { WeatherDataItemComponent } from '../weather-data-item/weather-data-item.component';
+import { TrustHtmlPipe } from '../../core/pipes';
+import { StackListItemComponent } from '../stack-list-item';
+import { WeatherDataItemComponent } from '../weather-data-item';
 import { StackListComponent } from './stack-list.component';
 
 describe('StackListComponent', () => {

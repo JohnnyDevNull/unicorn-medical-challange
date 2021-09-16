@@ -21,7 +21,13 @@
       "dom"
     ],
     "resolveJsonModule": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "paths": {
+      "@cypress-fixtures": ["cypress/fixtures"],
+      "@cypress-fixtures/*": ["cypress/fixtures/*"],
+      "@app-mock": ["src/mock"],
+      "@app-mock/*": ["src/mock/*"]
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,

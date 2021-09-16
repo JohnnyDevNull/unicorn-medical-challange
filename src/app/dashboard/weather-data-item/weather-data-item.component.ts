@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
-import { IWatherDataItem } from '../../core/services/interfaces/weather-data-item.iface';
-import { WeatherUnits } from '../../core/services/weatherdata.units';
+import { WeatherUnits } from '../../core/constants';
+import { IWeatherDataItem } from '../../core/services/interfaces';
 
 @Component({
   selector: 'app-weather-data-item',
@@ -9,7 +9,7 @@ import { WeatherUnits } from '../../core/services/weatherdata.units';
 })
 export class WeatherDataItemComponent {
   private units: any = WeatherUnits;
-  @Input() item: IWatherDataItem | null = null;
+  @Input() item: IWeatherDataItem | null = null;
   compareFn = () => 0;
   getUnit(key: string): string {
     return this.units[key] ? this.units[key] : null;

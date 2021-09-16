@@ -3,14 +3,14 @@ import { HttpClientModule } from '@angular/common/http';
 import { TestBed, waitForAsync } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app.routing.module';
-import { LayoutModule } from './core/layout/layout.module';
-import { TrustHtmlPipe } from './core/pipes/trust-html.pipe';
-import { SearchService } from './core/services/search.service';
-import { DashboardComponent } from './dashboard/dashboard.component';
-import { StackListItemComponent } from './dashboard/stack-list-item/stack-list-item.component';
-import { StackListComponent } from './dashboard/stack-list/stack-list.component';
-import { WeatherDataItemComponent } from './dashboard/weather-data-item/weather-data-item.component';
-import { SearchComponent } from './search/search.component';
+import { LayoutModule } from './core/layout';
+import { TrustHtmlPipe } from './core/pipes';
+import { SearchService } from './core/services';
+import { DashboardComponent } from './dashboard';
+import { StackListComponent } from './dashboard/stack-list';
+import { StackListItemComponent } from './dashboard/stack-list-item';
+import { WeatherDataItemComponent } from './dashboard/weather-data-item';
+import { SearchComponent } from './search';
 
 describe('AppComponent', () => {
   beforeEach(waitForAsync(() => {

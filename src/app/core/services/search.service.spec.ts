@@ -1,5 +1,5 @@
 import { HttpClientModule } from '@angular/common/http';
-import { inject, TestBed } from '@angular/core/testing';
+import { TestBed } from '@angular/core/testing';
 import { SearchService } from './search.service';
 
 describe('SearchService', () => {
@@ -13,7 +13,7 @@ describe('SearchService', () => {
     service = TestBed.inject(SearchService);
   });
 
-  it('should ...', () => {
+  test('should create', () => {
     expect(service).toBeTruthy();
   });
 
