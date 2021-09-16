@@ -27,7 +27,7 @@ export class SearchService {
 
   search(keyword: string, params = defaultSearchOptions): Observable<ISearchResultItem[]> {
     const mockData: any = this.mockData;
-    if (!environment.production && mockData && mockData[`stackItems${keyword}`]) {
+    if (environment.useSearchMockData && mockData && mockData[`stackItems${keyword}`]) {
       console.log('MOCK used!', keyword);
       return defer(() => of(mockData[`stackItems${keyword}`]?.items || []));
     }
