@@ -1,0 +1,471 @@
+{
+  "items": [
+    {
+      "tags": ["exception", "alert", "monitor", "weather"],
+      "owner": {
+        "reputation": 3,
+        "user_id": 16912796,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/43dd1acf115f18e26425abe17b0bc2f7?s=128&d=identicon&r=PG&f=1",
+        "display_name": "annazhwj",
+        "link": "https://stackoverflow.com/users/16912796/annazhwj"
+      },
+      "is_answered": true,
+      "view_count": 10,
+      "accepted_answer_id": 69184769,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1631655435,
+      "creation_date": 1631655153,
+      "question_id": 69184741,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/69184741/how-to-alert-myself-if-the-weather-changes-in-the-next-three-hours",
+      "title": "How to alert myself if the weather changes in the next three hours"
+    },
+    {
+      "tags": ["python", "web-scraping", "format", "weather"],
+      "owner": {
+        "reputation": 1,
+        "user_id": 16889959,
+        "user_type": "registered",
+        "profile_image": "https://graph.facebook.com/2460567760864418/picture?type=large",
+        "display_name": "Beth T",
+        "link": "https://stackoverflow.com/users/16889959/beth-t"
+      },
+      "is_answered": false,
+      "view_count": 47,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1631629992,
+      "creation_date": 1631420157,
+      "last_edit_date": 1631536675,
+      "question_id": 69148390,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/69148390/web-scraping-national-weather-api-difficulty-getting-correct-format-in-python",
+      "title": "Web scraping national weather API difficulty getting correct format in Python"
+    },
+    {
+      "tags": ["javascript", "json", "fetch-api", "openweathermap"],
+      "owner": {
+        "reputation": 13,
+        "user_id": 16903555,
+        "user_type": "registered",
+        "profile_image": "https://lh3.googleusercontent.com/a/AATXAJxKiDuoXtx3Pkoe-AJEc5gVVg0TzFxjwcX4OCcP=k-s128",
+        "display_name": "Nabil El Hajji Lara",
+        "link": "https://stackoverflow.com/users/16903555/nabil-el-hajji-lara"
+      },
+      "is_answered": true,
+      "view_count": 29,
+      "accepted_answer_id": 69170201,
+      "answer_count": 1,
+      "score": 1,
+      "last_activity_date": 1631576635,
+      "creation_date": 1631575263,
+      "last_edit_date": 1631575649,
+      "question_id": 69170068,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/69170068/undefined-error-when-fetching-weather-forecast-api-javascript",
+      "title": "undefined error when fetching weather forecast api javascript"
+    },
+    {
+      "tags": [
+        "c#",
+        "asp.net-core",
+        "blazor-server-side",
+        "unix-timestamp",
+        "data-conversion"
+      ],
+      "owner": {
+        "reputation": 15,
+        "user_id": 16881028,
+        "user_type": "registered",
+        "profile_image": "https://lh3.googleusercontent.com/a/AATXAJyg-62wtFhdaU9bg52FIAKnfbfmaztMBUVsD3HG=k-s128",
+        "display_name": "Adam Cushing",
+        "link": "https://stackoverflow.com/users/16881028/adam-cushing"
+      },
+      "is_answered": true,
+      "view_count": 26,
+      "accepted_answer_id": 69165822,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1631551496,
+      "creation_date": 1631547743,
+      "question_id": 69165575,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/69165575/converting-data-receiving-time-dt-in-unix-utc-format-from-api-call-into-tradi",
+      "title": "Converting Data Receiving Time (dt) in Unix, UTC format from API Call into traditonal date format using Blazor Server-Side Weather App"
+    },
+    {
+      "tags": ["node.js"],
+      "owner": {
+        "reputation": 1,
+        "user_id": 16901222,
+        "user_type": "registered",
+        "profile_image": "https://lh3.googleusercontent.com/a-/AOh14GiZoc06O3EfzjNWJNx87HCKpR7YxdIsCShgvlCGsg=k-s128",
+        "display_name": "FLANTAMOCK",
+        "link": "https://stackoverflow.com/users/16901222/flantamock"
+      },
+      "is_answered": false,
+      "view_count": 10,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1631550097,
+      "creation_date": 1631550097,
+      "question_id": 69166084,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/69166084/use-api-to-get-weather-conditions-api-sends-an-id-that-co-relate-to-an-img-got",
+      "title": "use API to get weather conditions , api sends an id that co-relate to an img got the id added it the basic framework of URL doesn&#39;t work"
+    },
+    {
+      "tags": ["html", "css"],
+      "owner": {
+        "reputation": 1,
+        "user_id": 13520146,
+        "user_type": "registered",
+        "profile_image": "https://lh3.googleusercontent.com/a-/AAuE7mB_pC9k8ToMsZ_3zJVlIP3jIaxsgGW8pzxPnMVl=k-s128",
+        "display_name": "Jos&#233; Moreira",
+        "link": "https://stackoverflow.com/users/13520146/jos%c3%a9-moreira"
+      },
+      "is_answered": false,
+      "view_count": 27,
+      "closed_date": 1631273364,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1631261375,
+      "creation_date": 1631261294,
+      "last_edit_date": 1631261375,
+      "question_id": 69129146,
+      "link": "https://stackoverflow.com/questions/69129146/alignment-banner-weather-widget-datetime-and-text-of-typewritter-effect",
+      "closed_reason": "Needs more focus",
+      "title": "Alignment banner, weather widget, datetime and text of typewritter effect"
+    },
+    {
+      "tags": ["python", "selenium", "selenium-webdriver", "web-scraping"],
+      "owner": {
+        "reputation": 23,
+        "user_id": 16872755,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/86305f969a59489faf390cbc2a07acd3?s=128&d=identicon&r=PG&f=1",
+        "display_name": "Brian Liu",
+        "link": "https://stackoverflow.com/users/16872755/brian-liu"
+      },
+      "is_answered": true,
+      "view_count": 35,
+      "accepted_answer_id": 69124657,
+      "answer_count": 1,
+      "score": 2,
+      "last_activity_date": 1631221098,
+      "creation_date": 1631214542,
+      "question_id": 69123578,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/69123578/scrape-historical-weather-data-from-wunderground",
+      "title": "Scrape historical weather data from wunderground"
+    },
+    {
+      "tags": ["android", "kotlin", "mvvm", "android-room", "viewmodel"],
+      "owner": {
+        "reputation": 101,
+        "user_id": 6293051,
+        "user_type": "registered",
+        "accept_rate": 14,
+        "profile_image": "https://www.gravatar.com/avatar/6a02a425b306aa814f65f60ac1b2960f?s=128&d=identicon&r=PG&f=1",
+        "display_name": "gawron103",
+        "link": "https://stackoverflow.com/users/6293051/gawron103"
+      },
+      "is_answered": false,
+      "view_count": 20,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1631127898,
+      "creation_date": 1631127898,
+      "question_id": 69108433,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/69108433/getting-data-and-saving-it-to-db-in-mvvm-weather-application",
+      "title": "Getting data and saving it to DB in MVVM weather application"
+    },
+    {
+      "tags": ["reactjs"],
+      "owner": {
+        "reputation": 1,
+        "user_id": 15907044,
+        "user_type": "registered",
+        "profile_image": "https://lh3.googleusercontent.com/a-/AOh14GgC3S0-Ri7TXya2vRBCn6SgYwvjZelyiLbWvbuTAA=k-s128",
+        "display_name": "Web Builders",
+        "link": "https://stackoverflow.com/users/15907044/web-builders"
+      },
+      "is_answered": false,
+      "view_count": 18,
+      "closed_date": 1631153804,
+      "answer_count": 0,
+      "score": -2,
+      "last_activity_date": 1631127430,
+      "creation_date": 1631127430,
+      "question_id": 69108342,
+      "link": "https://stackoverflow.com/questions/69108342/making-a-weather-app-but-stuck-to-set-place-to-get-input",
+      "closed_reason": "Needs details or clarity",
+      "title": "Making a weather app but stuck to set place to get input"
+    },
+    {
+      "tags": ["swift", "xcode", "api", "openweathermap"],
+      "owner": {
+        "reputation": 9,
+        "user_id": 14908036,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/c80860bd06bf0ca9b901ea1dd7f4fdc9?s=128&d=identicon&r=PG&f=1",
+        "display_name": "swiftcoder",
+        "link": "https://stackoverflow.com/users/14908036/swiftcoder"
+      },
+      "is_answered": true,
+      "view_count": 54,
+      "accepted_answer_id": 69079378,
+      "answer_count": 1,
+      "score": -1,
+      "last_activity_date": 1631034178,
+      "creation_date": 1630950609,
+      "last_edit_date": 1631034178,
+      "question_id": 69078553,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/69078553/why-am-i-not-able-to-recieve-any-data-from-the-open-weather-api",
+      "title": "Why am I not able to recieve any data from the open weather api?"
+    },
+    {
+      "tags": ["html", "json", "openweathermap"],
+      "owner": {
+        "reputation": 644,
+        "user_id": 5038905,
+        "user_type": "registered",
+        "accept_rate": 0,
+        "profile_image": "https://lh4.googleusercontent.com/-_xMsdTgCZz4/AAAAAAAAAAI/AAAAAAAAABk/ONCJmZITAVU/photo.jpg?sz=128",
+        "display_name": "Ajay Krishna Dutta",
+        "link": "https://stackoverflow.com/users/5038905/ajay-krishna-dutta"
+      },
+      "is_answered": true,
+      "view_count": 75315,
+      "answer_count": 12,
+      "score": 25,
+      "last_activity_date": 1630935398,
+      "creation_date": 1495705812,
+      "last_edit_date": 1612955365,
+      "question_id": 44177417,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/44177417/how-to-display-openweathermap-weather-icon",
+      "title": "How to display openweathermap weather icon"
+    },
+    {
+      "tags": ["javascript", "class"],
+      "owner": {
+        "reputation": 3,
+        "user_id": 13847124,
+        "user_type": "registered",
+        "profile_image": "https://i.stack.imgur.com/Z1gpu.jpg?s=128&g=1",
+        "display_name": "Sajid",
+        "link": "https://stackoverflow.com/users/13847124/sajid"
+      },
+      "is_answered": true,
+      "view_count": 26,
+      "accepted_answer_id": 68981556,
+      "answer_count": 1,
+      "score": -1,
+      "last_activity_date": 1630924313,
+      "creation_date": 1630314371,
+      "last_edit_date": 1630316296,
+      "question_id": 68981489,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/68981489/cant-inheritance-class-in-javascript-uncaught-referenceerror-weather-is-not-de",
+      "title": "Can&#39;t inheritance class in javascript Uncaught ReferenceError: Weather is not defined"
+    },
+    {
+      "tags": [
+        "flutter",
+        "dart",
+        "flutter-layout",
+        "flutter-dependencies",
+        "flutter-animation"
+      ],
+      "owner": {
+        "reputation": 264,
+        "user_id": 15610685,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/dc029e7aba9df16f2c8fbc50ccc02828?s=128&d=identicon&r=PG&f=1",
+        "display_name": "Deepak",
+        "link": "https://stackoverflow.com/users/15610685/deepak"
+      },
+      "is_answered": false,
+      "view_count": 23,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1630921586,
+      "creation_date": 1630921586,
+      "question_id": 69072477,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/69072477/flutter-how-to-show-weather-data-on-dialog-box",
+      "title": "flutter: How to show weather data on dialog box"
+    },
+    {
+      "tags": [
+        "flutter",
+        "snapshot",
+        "openweathermap",
+        "weather-api",
+        "flutter-android"
+      ],
+      "owner": {
+        "reputation": 1,
+        "user_id": 15197597,
+        "user_type": "registered",
+        "profile_image": "https://lh3.googleusercontent.com/a-/AOh14GjyP-GIVYS-fUvAwQCKooQrbOo-a-c63KLHAJEI6A=k-s128",
+        "display_name": "dinesh balan",
+        "link": "https://stackoverflow.com/users/15197597/dinesh-balan"
+      },
+      "is_answered": false,
+      "view_count": 16,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1630915260,
+      "creation_date": 1630913164,
+      "question_id": 69070687,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/69070687/flutter-weather-api-isnt-work-the-snapshot-data-is-showing-error",
+      "title": "flutter weather api is&#39;nt work the snapshot.data is showing error"
+    },
+    {
+      "tags": ["python", "openweathermap"],
+      "owner": {
+        "reputation": 990,
+        "user_id": 12152982,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/85a96f15c74d4368c8399d71a09d8834?s=128&d=identicon&r=PG&f=1",
+        "display_name": "anon_dcs3spp",
+        "link": "https://stackoverflow.com/users/12152982/anon-dcs3spp"
+      },
+      "is_answered": false,
+      "view_count": 14,
+      "answer_count": 0,
+      "score": 0,
+      "last_activity_date": 1630674563,
+      "creation_date": 1630674563,
+      "question_id": 69045477,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/69045477/how-to-retrieve-weather-forecast-from-openweathermap-for-a-given-local-date-and",
+      "title": "How To Retrieve Weather Forecast From OpenWeatherMap For A Given Local Date and Time expressed using Local Time Zone?"
+    },
+    {
+      "tags": ["reactjs"],
+      "owner": {
+        "reputation": 39,
+        "user_id": 16686544,
+        "user_type": "registered",
+        "profile_image": "https://i.stack.imgur.com/JOgtt.jpg?s=128&g=1",
+        "display_name": "TheRealJohnDoe",
+        "link": "https://stackoverflow.com/users/16686544/therealjohndoe"
+      },
+      "is_answered": false,
+      "view_count": 45,
+      "answer_count": 2,
+      "score": 0,
+      "last_activity_date": 1630557919,
+      "creation_date": 1630400396,
+      "last_edit_date": 1630403343,
+      "question_id": 68995784,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/68995784/how-can-i-fix-an-error-of-displaying-weather-icons-in-react",
+      "title": "How can i fix an error of displaying weather Icons in react"
+    },
+    {
+      "tags": ["vue.js", "vuejs2"],
+      "owner": {
+        "reputation": 15,
+        "user_id": 12230210,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/f6d175bf9251e7682f78d071beead1be?s=128&d=identicon&r=PG&f=1",
+        "display_name": "sanss",
+        "link": "https://stackoverflow.com/users/12230210/sanss"
+      },
+      "is_answered": true,
+      "view_count": 25,
+      "accepted_answer_id": 69006129,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1630451579,
+      "creation_date": 1630448442,
+      "question_id": 69005869,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/69005869/weather-app-with-vue-js-and-open-weather-map-api-and-7-day-weather-forecast",
+      "title": "Weather app with Vue js and Open Weather Map API and 7 day weather forecast"
+    },
+    {
+      "tags": [
+        "python",
+        "pandas",
+        "machine-learning",
+        "time-series",
+        "data-science"
+      ],
+      "owner": {
+        "reputation": 1000,
+        "user_id": 4317675,
+        "user_type": "registered",
+        "accept_rate": 77,
+        "profile_image": "https://graph.facebook.com/100003206188636/picture?type=large",
+        "display_name": "Mostafa Mohamed",
+        "link": "https://stackoverflow.com/users/4317675/mostafa-mohamed"
+      },
+      "is_answered": false,
+      "view_count": 26,
+      "answer_count": 1,
+      "score": 1,
+      "last_activity_date": 1630429648,
+      "creation_date": 1630148190,
+      "question_id": 68963674,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/68963674/upsample-timeseries-with-weather-data-in-a-correct-way",
+      "title": "Upsample timeseries with weather data in a correct way"
+    },
+    {
+      "tags": ["reactjs", "axios"],
+      "owner": {
+        "reputation": 11,
+        "user_id": 16142026,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/b52e18517378ecfc7c9861dc048469e0?s=128&d=identicon&r=PG&f=1",
+        "display_name": "ARPIT PRASAD",
+        "link": "https://stackoverflow.com/users/16142026/arpit-prasad"
+      },
+      "is_answered": false,
+      "view_count": 43,
+      "answer_count": 1,
+      "score": 1,
+      "last_activity_date": 1630427915,
+      "creation_date": 1630213652,
+      "last_edit_date": 1630425416,
+      "question_id": 68970030,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/68970030/not-able-to-resolve-issue-with-api-of-openweatherapi-for-fetching-weather-data-o",
+      "title": "Not able to resolve issue with api of OpenWeatherApi for fetching weather data of a city using City id using axios in Reactjs"
+    },
+    {
+      "tags": ["javascript", "charts", "chart.js"],
+      "owner": {
+        "reputation": 1,
+        "user_id": 13870368,
+        "user_type": "registered",
+        "profile_image": "https://lh3.googleusercontent.com/-gj0b-KfXO4Y/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucnt_BhE0VnkfXv-2crD0IVPI9LMqg/photo.jpg?sz=128",
+        "display_name": "Didarul Amin",
+        "link": "https://stackoverflow.com/users/13870368/didarul-amin"
+      },
+      "is_answered": false,
+      "view_count": 27,
+      "answer_count": 1,
+      "score": 0,
+      "last_activity_date": 1630401740,
+      "creation_date": 1630348328,
+      "question_id": 68988817,
+      "content_license": "CC BY-SA 4.0",
+      "link": "https://stackoverflow.com/questions/68988817/how-to-achive-chart-js-weather-chart-of-5-day-3-hour-forecast-data",
+      "title": "How to achive Chart JS weather chart of 5 day / 3 hour forecast data"
+    }
+  ],
+  "has_more": true,
+  "quota_max": 0,
+  "quota_remaining": 0
+}
