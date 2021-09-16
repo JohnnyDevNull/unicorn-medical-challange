@@ -31,16 +31,14 @@
   }
 }
 
-.weather-item {
-  &__date {
+.weather-item-entry {
+  display: inline-block;
+
+  &__key {
     margin-right: 5px;
   }
 
-  &__time {
+  &__value {
     margin-right: 5px;
-  }
-
-  &__temp {
-    margin-left: 5px;
   }
 }

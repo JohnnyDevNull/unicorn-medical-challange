@@ -1,3 +1,4 @@
-<span class="weather-item__date">{{ item?.Datum }}</span>
-<span class="weather-item__time">{{ item?.Zeit }}</span>
-<span class="weather-item__temp">{{ item?.['Temp. 3'] }}&#8451;</span>
+<div class="weather-item-entry" *ngFor="let i of item | keyvalue:compareFn">
+  <span class="weather-item-entry__key">{{ i.key }}:</span>
+  <span class="weather-item-entry__value">{{ i.value }}{{getUnit(i.key)}}</span>
+</div>
