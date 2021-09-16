@@ -9,7 +9,7 @@ import { ISearchOptions, ISearchResult, ISearchResultItem } from './interfaces';
 const defaultSearchOptions: ISearchOptions = {
   pagesize: 10,
   order: 'desc',
-  sort: 'creation_date',
+  sort: 'creation',
   site: 'stackoverflow'
 };
 
