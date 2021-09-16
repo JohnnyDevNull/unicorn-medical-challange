@@ -6,6 +6,7 @@
     overflow: visible;
 
     &__container {
+        top: 65px;
         position: relative;
         background: $white;
     }
@@ -113,35 +114,12 @@
 }
 
 @media screen and (max-width: $screen-sm-max) {
-    .pushed-right--mobile {
-        > .topbar,
-        > .main-content {
-            transform: translate3d($sidebar-width, 0, 0);
-        }
-
-        .main-content {
-            position: fixed;
-        }
-    }
-
     .sidebar--left--mobile--open {
         transform: translate3d(0, 0, 0);
     }
 }
 
 @media screen and (min-width: $screen-md-min) {
-    .sidebar__inner {
-        padding-top: 65px;
-    }
-
-    .pushed-right {
-        > .topbar,
-        > .main-content {
-            transform: translate3d(0, 0, 0);
-            margin-left: 260px;
-        }
-    }
-
     .sidebar--left--open {
         transform: translate3d(0, 0, 0);
     }
