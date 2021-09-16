@@ -31,7 +31,6 @@ export class DashboardComponent {
       items: this.searchService.search('Weather').pipe(
         switchMap(searchResult => this.weatherService.getWeatherData().pipe(
           map(weatherResult => {
-            console.log(weatherResult);
             const items = ArrayLimit(searchResult, 5);
             const weatherSample = ArrayRandom(weatherResult || [] as any, 5);
             return ArrayZipFlat(items, weatherSample);
