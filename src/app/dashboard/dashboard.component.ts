@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
-import { ArrayRandom, ArrayZipFlat } from '../core/functions';
+import { ArrayLimit, ArrayRandom, ArrayZipFlat } from '../core/functions';
 import { ISearchResultItem } from '../core/services/interfaces';
 import { IWatherDataItem } from '../core/services/interfaces/weather-data-item.iface';
 import { SearchService } from '../core/services/search.service';
@@ -25,25 +25,23 @@ export class DashboardComponent {
   ) {
     this.stackLists.push({
       keyword: 'TypeScript',
-      items: this.searchService.search('TypeScript').pipe(map(res => this.limitItems(res, 10)))
-    });
-    this.stackLists.push({
+      items: this.searchService.search('TypeScript').pipe(
+        map(res => ArrayLimit(res, 10))
+      )
+    }, {
       keyword: 'Angular2',
-      items: this.searchService.search('Angular2').pipe(map(res => this.limitItems(res, 10)))
-    });
-    this.stackLists.push({
+      items: this.searchService.search('Angular2').pipe(
+        map(res => ArrayLimit(res, 10))
+      )
+    }, {
       keyword: 'Weather',
       items: this.searchService.search('Weather').pipe(
         map(res => {
-          const items = this.limitItems(res, 5);
+          const items = ArrayLimit(res, 5);
           const weatherSample = ArrayRandom(weatherData, 5);
           return ArrayZipFlat(items, weatherSample);
         }
       ))
     });
-  }
-
-  public limitItems(items: Array<ISearchResultItem>, limit: number): Array<ISearchResultItem> {
-    return items?.length > 0 ? items.slice(0, limit) : items;
   }
 }
