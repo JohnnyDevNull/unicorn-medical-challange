@@ -29,6 +29,34 @@
   &__title {
     margin-right: 5px;
   }
+
+  &__views,
+  &__answers,
+  &__answers--green{
+    background-color: $green-light;
+    display: inline-block;
+    font-size: 0.75rem;
+    padding: 0 4px;
+    border-radius: 5px;
+  }
+
+  &__answers--green {
+    background-color: $green;
+    color: $white-sand;
+  }
+
+  &__tag {
+    display: inline-block;
+    background-color: $gray-mystic;
+    border-radius: 5px;
+    font-size: 0.75rem;
+    padding: 0 4px;
+    margin-right: 4px;
+  }
+
+  &__link {
+    margin: 5px 0;
+  }
 }
 
 .weather-item-entry {
